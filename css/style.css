@@ -1,0 +1,44 @@
+@import "null.css";
+
+* h2 {
+	color: rgb(156, 44, 156);
+}
+
+p {
+	color: yellowgreen;
+}
+[class*="-text"] {
+	color: black;
+}
+.one,
+.two,
+.three {
+	color: rgb(7, 131, 131);
+}
+h2.title-head {
+	color: rgb(52, 41, 148);
+}
+.main .inside {
+	color: rgb(70, 126, 6);
+}
+.main-title {
+	color: rgb(206, 34, 4);
+}
+.article-text-next + p {
+	color: cadetblue;
+}
+.topic.span {
+	color: turquoise;
+}
+.some-list > li .some-link {
+	color: rgb(156, 44, 156);
+}
+ul.some-list > li > ul > li {
+	color: rgb(14, 207, 14);
+}
+#sub-two {
+	color: crimson;
+}
+.text-for-next ~ p {
+	color: rgb(56, 41, 41);
+}
